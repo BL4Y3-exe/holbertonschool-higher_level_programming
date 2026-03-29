@@ -3,13 +3,14 @@
 This module contains a function that adds two integers
 """
 
+
 def add_integer(a, b=98):
     """
     Adds two integrs and returns the result.
-    
+
     a and b must be integers or floats.
     Floats are casted to integers before addition.
-    
+
     Raises:
         TypeError: if a or b is not an integer or float.
     """
