@@ -1,0 +1,50 @@
+Tests fro add_integer function
+==============================
+
+normal cases
+------------
+
+>>> add_integer(1, 2)
+3
+
+>>> add_integer(100, -2)
+98
+
+>>> add_integer(2)
+100
+
+floats(should be casted to int)
+-----------------------------
+
+>>> add_integer(100.3, 2)
+98
+
+>>> add_integer(3.9, 2.1)
+5
+
+edge cases
+-----------
+
+>>> add_integer(0, 0)
+0
+
+>>> add_integer(-5, -3)
+-8
+
+>>> add_integer(10**10, 10**10) == 2 * 10**10
+True
+
+Type errors
+-----------
+
+>>> add_integer(4, "Hello")
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer("Hello", 5)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(None)
+Traceback (most recent call last):
+TypeError: a must be an integer
