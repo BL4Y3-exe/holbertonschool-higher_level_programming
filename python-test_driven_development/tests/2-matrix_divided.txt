@@ -44,6 +44,9 @@ Invalid div
 Traceback (most recent call last):
 TypeError: div must be a number
 
+>>> matrix_divided([[1, 2], [3, 4]], float('inf'))
+[[0.0, 0.0], [0.0, 0.0]]
+
 Division by zero
 ----------------
 
