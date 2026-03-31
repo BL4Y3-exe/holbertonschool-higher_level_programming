@@ -10,6 +10,7 @@ Normal cases
 Hello.
 <BLANKLINE>
 How are you?
+<BLANKLINE>
 
 Multiple separators
 -------------------
@@ -20,6 +21,7 @@ Hi.
 How?
 <BLANKLINE>
 Fine:
+<BLANKLINE>
 
 Spaces handling
 ---------------
@@ -28,6 +30,7 @@ Spaces handling
 Hello.
 <BLANKLINE>
 World.
+<BLANKLINE>
 
 Edge cases
 ----------
