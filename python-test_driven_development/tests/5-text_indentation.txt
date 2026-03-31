@@ -8,7 +8,7 @@ Normal cases
 
 >>> text_indentation("Hello. How are you?")
 Hello.
-
+<BLANKLINE>
 How are you?
 
 Multiple separators
@@ -16,9 +16,9 @@ Multiple separators
 
 >>> text_indentation("Hi. How? Fine:")
 Hi.
-
+<BLANKLINE>
 How?
-
+<BLANKLINE>
 Fine:
 
 Spaces handling
@@ -26,7 +26,7 @@ Spaces handling
 
 >>> text_indentation("Hello.   World.")
 Hello.
-
+<BLANKLINE>
 World.
 
 Edge cases
