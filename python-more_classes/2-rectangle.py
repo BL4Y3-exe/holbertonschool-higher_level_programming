@@ -92,6 +92,6 @@ class Rectangle:
         Returns:
             int: The current perimetr of rectangle.
         """
-        if (self.__width or self.__height == 0):
+        if (self.__width == 0 or self.__height == 0):
             return 0
         return ((self.__width + self.__height) * 2)
