@@ -118,7 +118,7 @@ class Rectangle:
     def square(cls, size=0):
         """
         Creates new instance of Rectangle class.
-        
+
         Return:
             Rectangle: Square is also a rectangle.
         """
