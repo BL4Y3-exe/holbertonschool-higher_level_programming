@@ -8,10 +8,10 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 class Rectangle(BaseGeometry):
     """
     Subclass of BaseGeometry.
-    
+
     Args:
         BaseGeometry: a parent class.
-        
+
     Attributes:
         __width: width of rectangle.
         __height: height of rectangle.
