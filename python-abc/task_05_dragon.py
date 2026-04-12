@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains Dragon, SwimMixin and FlyMixin calsses."""
+"""This module contains Dragon, SwimMixin and FlyMixin classes."""
 
 
 class SwimMixin:
