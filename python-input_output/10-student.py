@@ -26,7 +26,7 @@ class Student:
         Retunrs:
             dict: dictionary of the attributes.
         """
-        dct =  {
+        dct = {
             "first_name": self.first_name,
             "last_name": self.last_name,
             "age": self.age
