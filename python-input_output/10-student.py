@@ -37,5 +37,5 @@ class Student:
         new_dct = {}
         for attr in attrs:
             if attr in dct.keys():
-                new_dct[i] = dct[i]
+                new_dct[attr] = dct[attr]
         return (new_dct)
